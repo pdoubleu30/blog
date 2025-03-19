@@ -1,0 +1,81 @@
+*{
+    font-family: "figtree", serif;
+}
+
+p {
+    font-size: 16px;
+}
+.background {
+    background-color: hsl(47, 88%, 63%);
+}
+
+.wrapper {
+    border: 1.5px solid hsl(0, 0%, 7%);
+    border-radius: 15px;
+    background-color: hsl(0, 0%, 100%);
+    padding: 15px;
+    box-shadow: 8px 8px 0px .5px;
+
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    max-width: 250px;
+    max-height: 400px;
+
+}
+.fullcard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.pblock {
+    display: inline;
+}
+
+#profile {
+    display: inline;
+    width: 30px;
+    vertical-align: middle;
+    
+}
+
+span {
+    font-size: 12px;
+    font-weight: 800px;
+    margin-left: 10px;
+    ;
+
+}
+
+.faded {
+    opacity: .5;
+    font-weight: 500px;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.special {
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    height: 22px;
+    width: 70px;
+    border-radius: 5px;
+}
+
+h1 {
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.date {
+    font-size: 12px;
+    font-weight: 500;
+}
